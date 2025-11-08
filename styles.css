@@ -1,0 +1,24 @@
+/* Simple, responsive, single-file CSS for the demo */
+:root{
+  --bg:#0f1724;--card:#0b1220;--accent:#ffb703;--muted:#94a3b8;color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:var(--bg);color:white;line-height:1.4}
+.container{max-width:1000px;margin:0 auto;padding:18px}
+.site-header{border-bottom:1px solid rgba(255,255,255,0.04)}
+.brand{font-size:34px;margin:0;letter-spacing:1px}
+.tag{margin:6px 0 14px;color:var(--muted)}
+.nav a{color:var(--muted);margin-right:12px;text-decoration:none}
+.hero{background:linear-gradient(90deg, rgba(255,183,3,0.06), transparent);padding:20px;border-radius:8px;margin:18px 0}
+.products{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:12px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.2));padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
+.card img{width:100%;height:180px;object-fit:cover;border-radius:8px}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;background:rgba(255,255,255,0.04);margin-right:6px;color:var(--muted)}
+.price{font-weight:700;margin-top:8px}
+.btn{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:#07111a;text-decoration:none;font-weight:600;margin-top:10px}
+.info{margin-top:24px;background:rgba(255,255,255,0.02);padding:14px;border-radius:8px}
+.seller-form input{display:inline-block;padding:8px;margin:6px 6px 6px 0;border-radius:6px;border:none;background:#0b1320;color:var(--muted)}
+.seller-form button{padding:8px 12px;border-radius:6px;border:none;background:var(--accent);cursor:pointer}
+.contact input,.contact textarea{width:100%;padding:10px;margin:8px 0;border-radius:6px;border:none;background:#07111a;color:var(--muted)}
+.site-footer{border-top:1px solid rgba(255,255,255,0.04);margin-top:28px;padding:18px;text-align:center;color:var(--muted)}
+.small{font-size:13px;color:var(--muted)}
